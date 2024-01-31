@@ -9,7 +9,7 @@
 }
 
 .app__bg {
-  background: url('./assets/bg.png');
+  background: url('./assets/bg.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: repeat;
@@ -99,28 +99,6 @@
 
 .spoon__img {
   width: 45px;
-}
-
-@media screen and (min-width: 2000px) {
-  .custom__button,
-  .p__cormorant {
-    font-size: 37px;
-    line-height: 67px;
-  }
-
-  .p__opensans {
-    font-size: 30px;
-    line-height: 50px;
-  }
-
-  .headtext__cormorant {
-    font-size: 150px;
-    line-height: 210px;
-  }
-
-  .spoon__img {
-    width: 80px;
-  }
 }
 
 @media screen and (max-width: 1150px) {
