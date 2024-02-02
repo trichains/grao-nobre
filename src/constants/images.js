@@ -7,7 +7,7 @@ import gallery03 from '../assets/gallery03.png';
 import gallery04 from '../assets/gallery04.png';
 import grao from '../assets/grao.webp';
 import logo from '../assets/logo.png';
-import menu from '../assets/menu.png';
+import menu from '../assets/menu.webp';
 import overlaybg from '../assets/overlaybg.png';
 import spoon from '../assets/spoon.svg';
 import welcome from '../assets/welcome.jpg';

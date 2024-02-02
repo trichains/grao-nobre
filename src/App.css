@@ -97,6 +97,17 @@
   text-transform: capitalize;
 }
 
+.headtext__cormorant-special {
+  font-family: var(--font-base);
+  background: linear-gradient(90deg, #dcca87 0%, #5a4635 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 64px;
+  line-height: 83.2px;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+}
+
 .spoon__img {
   width: 45px;
 }
