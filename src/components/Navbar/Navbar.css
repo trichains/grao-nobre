@@ -4,13 +4,14 @@
   justify-content: space-between;
   align-items: center;
   background: #000;
-  padding: 1rem 2rem;
+  padding: 1rem 5rem;
 }
 
 .app__navbar-logo {
   display: flex;
   justify-content: flex-start;
   align-items: center;
+  margin-left: 1rem;
 }
 
 .app__navbar-logo img {
