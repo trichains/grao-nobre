@@ -6,9 +6,9 @@ const Header = () => (
   <div className="app__header app__wrapper section__padding" id="home">
     <div className="app__wrapper_info header__center">
       <SubHeading title="Sinta o aroma especial" />
-      <h1 className="app__header-h1">Cafezin☕🤎</h1>
+      <h1 className="app__header-h1 center__header">Cafezin☕🤎</h1>
       <p
-        className="p__opensans p__header"
+        className="p__opensans center__header"
         style={{
           color: '#AAA',
           margin: '2rem 0',
