@@ -19,6 +19,7 @@ import award05 from '../assets/award05.png';
 import sign from '../assets/sign.png';
 import quote from '../assets/quote.png';
 import graonobre from '../assets/graonobre.svg';
+import graonobre_footer from '../assets/graonobre_footer.svg';
 
 export default {
   bg,
@@ -41,5 +42,6 @@ export default {
   award05,
   sign,
   quote,
-  graonobre
+  graonobre,
+  graonobre_footer
 };
