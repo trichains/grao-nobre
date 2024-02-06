@@ -112,6 +112,28 @@
   width: 45px;
 }
 
+/* Estilizando a barra de rolagem no Chrome, Safari */
+body::-webkit-scrollbar {
+  width: 12px;
+  background-color: var(--color-black);
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: var(--color-golden);
+  border-radius: 10px;
+}
+
+/* Estilizando a barra de rolagem no Firefox */
+body::-moz-scrollbar {
+  width: 12px;
+  background-color: var(--color-black);
+}
+
+body::-moz-scrollbar-thumb {
+  background-color: var(--color-golden);
+  border-radius: 10px;
+}
+
 @media screen and (min-width: 2000px) {
   .app__wrapper_img img {
     width: 60%;

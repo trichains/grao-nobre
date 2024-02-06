@@ -19,14 +19,20 @@ const Footer = () => (
 
       <div className="app__footer-links_logo">
         <img src={images.graonobre_footer} alt="footer_logo" />
-        <p className="p__opensans">
+        <p className="p__opensans" style={{ fontStyle: 'italic' }}>
           &ldquo;A descoberta pessoal se revela ao se dedicar com paixão aos amantes de café.&rdquo;
         </p>
         <img src={images.spoon} alt="spoon" className="spoon__img" style={{ marginTop: '15px' }} />
         <div className="app__footer-links_icons">
-          <FiInstagram />
-          <FiGithub />
-          <FiCode />
+          <a href="https://www.instagram.com/trichains" target="_blank" rel="noreferrer">
+            <FiInstagram />
+          </a>
+          <a href="https://trichains.dev" target="_blank" rel="noreferrer">
+            <FiCode />
+          </a>
+          <a href="https://github.com/trichains" target="_blank" rel="noreferrer">
+            <FiGithub />
+          </a>
         </div>
       </div>
 
