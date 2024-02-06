@@ -19,6 +19,21 @@
   scroll-behavior: smooth;
 }
 
+/* Estilizando a barra de rolagem no Chrome, Safari */
+body::-webkit-scrollbar {
+  width: 12px;
+  background-color: var(--color-black);
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: var(--color-golden);
+  border-radius: 10px;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+  background-color: var(--color-white);
+}
+
 a {
   color: unset;
   text-decoration: none;
