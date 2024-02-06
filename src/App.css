@@ -113,10 +113,6 @@
 }
 
 @media screen and (min-width: 2000px) {
-  .app__wrapper_img-reverse {
-    justify-content: center;
-  }
-
   .app__wrapper_img img {
     width: 60%;
   }
@@ -164,7 +160,7 @@
   .app__wrapper {
     min-height: auto;
   }
-  
+
   .p__opensans {
     font-size: 16px;
   }
