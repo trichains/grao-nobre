@@ -4,12 +4,21 @@ import './Header.css';
 
 const Header = () => (
   <div className="app__header app__wrapper section__padding" id="home">
-    <div className="app__wrapper_info">
+    <div className="app__wrapper_info header__center">
       <SubHeading title="Sinta o aroma especial" />
-      <h1 className="app__header-h1">Café fresco pela manhã</h1>
-      <p className="p__opensans" style={{ margin: '2rem 0' }}>
-        Dos tradicionais ao especiais, cada xícara é uma jornada sensorial. Sinta o equilíbrio de sabores. Uma
-        experiência única, desperte seus sentidos ☕✨
+      <h1 className="app__header-h1">Cafezin☕🤎</h1>
+      <p
+        className="p__opensans"
+        style={{
+          color: '#AAA',
+          margin: '2rem 0',
+          padding: '5px',
+          borderRadius: '5px',
+          boxShadow: 'rgba(0, 0, 0, 0.4)',
+          backgroundColor: 'rgba(0, 0, 0, 1)'
+        }}>
+        De cafés tradicionais a especiais, cada xícara é uma jornada de sabores equilibrados. Desperte seus sentidos em
+        uma experiência única. ✨
       </p>
       <button type="button" className="custom__button">
         Explorar Menu

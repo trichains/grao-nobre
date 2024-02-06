@@ -2,18 +2,26 @@
   background: url(../../assets/welcome.jpg);
   background-position: center;
   background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .app__header-h1 {
   font-family: var(--font-base);
   color: var(--color-golden);
-  letter-spacing: 0.04em;
+  letter-spacing: 0.05em;
   text-transform: capitalize;
   line-height: 117px;
   font-size: 90px;
-  max-width: 30rem;
+  max-width: 35rem;
 }
 
 .app__wrapper_info p {
   max-width: 40rem;
+  text-align: center;
+}
+
+@media screen and (max-width: 450px) {
+  .custom__button {
+    align-self: center;
+  }
 }

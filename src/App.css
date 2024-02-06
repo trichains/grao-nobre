@@ -88,17 +88,6 @@
   font-size: 16px;
 }
 
-.p__opensans-italic {
-  font-family: var(--font-alt);
-  color: var(--color-white);
-  font-weight: 400;
-  letter-spacing: 0.04em;
-  text-transform: capitalize;
-  line-height: 28px;
-  font-size: 16px;
-  font-style: italic;
-}
-
 .headtext__cormorant {
   font-family: var(--font-base);
   color: var(--color-golden);
@@ -172,8 +161,12 @@
 }
 
 @media screen and (max-width: 450px) {
+  .app__wrapper {
+    min-height: auto;
+  }
+  
   .p__opensans {
-    font-size: 12px;
+    font-size: 16px;
   }
 
   .p__cormorant {
