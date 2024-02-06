@@ -10,7 +10,10 @@ const FindUs = () => (
       </h1>
       <div className="app__wrapper-content">
         <p className="p__opensans" style={{ color: '#AAA' }}>
-          Rua Café Aromático, 366 - Campo Grande MS
+          Rua Café Aromático - 366
+        </p>
+        <p className="p__opensans" style={{ color: '#AAA' }}>
+          Campo Grande MS
         </p>
         <p className="p__cormorant" style={{ color: '#DCCA87', margin: '2rem 0' }}>
           Horário de funcionamento

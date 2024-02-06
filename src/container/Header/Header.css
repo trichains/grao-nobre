@@ -17,11 +17,14 @@
 
 .app__wrapper_info p {
   max-width: 40rem;
-  text-align: center;
 }
 
 @media screen and (max-width: 450px) {
-  .custom__button {
+  .header__button {
     align-self: center;
+  }
+
+  .p__header {
+    text-align: center;
   }
 }

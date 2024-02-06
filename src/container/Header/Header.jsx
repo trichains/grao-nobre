@@ -8,7 +8,7 @@ const Header = () => (
       <SubHeading title="Sinta o aroma especial" />
       <h1 className="app__header-h1">Cafezin☕🤎</h1>
       <p
-        className="p__opensans"
+        className="p__opensans p__header"
         style={{
           color: '#AAA',
           margin: '2rem 0',
@@ -20,7 +20,7 @@ const Header = () => (
         De cafés tradicionais a especiais, cada xícara é uma jornada de sabores equilibrados. Desperte seus sentidos em
         uma experiência única. ✨
       </p>
-      <button type="button" className="custom__button">
+      <button type="button" className="custom__button header__button">
         Explorar Menu
       </button>
     </div>
